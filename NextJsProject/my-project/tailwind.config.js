@@ -1,3 +1,6 @@
+// import konstaConfig config
+const konstaConfig = require('konsta/config');
+
 // module.exports = {
 //   content: [
 //     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -9,9 +12,6 @@
 //   plugins: [],
 // }
 
-const konstaConfig = require('konsta/config');
-
-// wrap config with konstaConfig config
 module.exports = konstaConfig({
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',

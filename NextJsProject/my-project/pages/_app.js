@@ -1,11 +1,3 @@
-// import '../styles/globals.css'
-
-// function MyApp({ Component, pageProps }) {
-//   return <Component {...pageProps} />
-// }
-
-// export default MyApp
-
 import { App } from 'konsta/react';
 import '../styles/globals.css';
 
