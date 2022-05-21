@@ -9,6 +9,6 @@ jobs:
       - uses: BogDAAAMN/deta-deploy-action@v1.0.1
         with:
           deta-access-token: ${{ secrets.DETA_TOKEN }} #Deta access token https://docs.deta.sh/docs/cli/auth
-          deta-name: 'micro-name' #Deta Micro name https://docs.deta.sh/docs/cli/commands/#deta-clone
+          deta-name: 'Flask_API' #Deta Micro name https://docs.deta.sh/docs/cli/commands/#deta-clone
           #deta-project: 'project-name' #Optional: Deta project name https://docs.deta.sh/docs/cli/commands/#deta-clone
           deta-project-dir: 'Flask_API' #Optional: directory to be deployed on Deta. Default is the root "." 
