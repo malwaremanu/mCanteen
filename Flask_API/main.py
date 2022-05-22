@@ -17,13 +17,3 @@ from categories.categories import router as categories_router
 app.include_router(users_router)
 app.include_router(products_router)
 app.include_router(categories_router)
-
-# from deta import Deta
-# from dotenv import load_dotenv
-# load_dotenv()
-
-# #deta = Deta("c0qm30mo_ZAEx1mTufH9EyGpDivRP3p56x1PxoqzY")
-# deta = Deta(os.getenv('deta_key'))
-
-# products = deta.Base("products")
-
