@@ -1,4 +1,4 @@
-import os
+import os, datetime
 from fastapi import FastAPI, Request
 from fastapi import APIRouter
 router = APIRouter()
@@ -23,7 +23,8 @@ async def deletecategories(id:str):
 @router.put('/categories/{id}')
 async def updatecategories(id:str, request : Request):
     try:
-        r = await request.json()        
+        r = await request.json()    
+        r['created_on'] = str(datetime.datetime.now())    
         categories.put({"category":r},id)        
         return {
             "status" : "SUCCESS",
@@ -41,7 +42,8 @@ async def updatecategories(id:str, request : Request):
 async def postcategories(request : Request):
     # id:str and category: str implies input validation, ie the url parameters can be of only type string
     r = await request.json()
-    categories.insert({"product":r})
+    r['created_on'] = str(datetime.datetime.now())    
+    categories.insert({"category":r})
     return {
         "status" : "SUCCESS",
         "message" : "category created successfully",
@@ -55,6 +57,7 @@ async def getcategories():
     # fetches all the categorys from Deta cloud db
     allcategories=categories.fetch()
     for item in allcategories.items:
-        respose[item["key"]]=item["product"]
+        print(item)
+        respose[item["key"]]=item["category"]
     return respose
     
