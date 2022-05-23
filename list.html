@@ -1,0 +1,1097 @@
+<div
+  class="h-full w-full left-0 top-0 overflow-auto absolute bg-page-ios-light dark:bg-page-ios-dark"
+>
+  <div class="w-full z-20 top-0  sticky text-navbar-ios">
+    <div
+      class="absolute w-full h-full left-0 top-0 bg-bars-ios-light dark:bg-bars-ios-dark hairline-b translucent"
+    ></div>
+    <div
+      class="flex relative items-center w-full overflow-hidden pl-2-safe pr-2-safe h-11 justify-between"
+    >
+      <div
+        class="flex justify-center items-center h-full mr-2 transform transform-gpu"
+      >
+        <button @click="root == 'main'"
+          class="text-primary inline-flex space-x-1 justify-center items-center cursor-pointer select-none active:opacity-30 duration-300 active:duration-0 h-full max-h-12 cursor-pointer"
+          ><span class=""
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="20"
+              viewBox="0 0 12 20"
+              fill="currentcolor"
+            >
+              <path
+                d="M0.18261596,9.4221638 C0.21783626,9.37068075 0.25835058,9.32165682 0.30416276,9.27584463 L9.1425872,0.4374202 C9.7256776,-0.14567018 10.6691555,-0.1475686 11.2590259,0.44230183 C11.8448123,1.02808827 11.8502479,1.97240019 11.2639075,2.55874056 L3.82594417,9.9967039 L11.2578297,17.4285894 C11.8409201,18.0116798 11.8428185,18.9551577 11.252948,19.5450281 C10.6671616,20.1308146 9.7228497,20.1362501 9.13650932,19.5499097 L0.2980849,10.7114853 C-0.0545897,10.3588107 -0.0959125,9.8144953 0.18261596,9.4221638 Z"
+              ></path></svg></span
+          ><span>Back</span>
+          </button>
+      </div>
+      <div
+        class="text-black dark:text-white whitespace-nowrap leading-tight font-semibold absolute top-1/2 left-1/2 transform-gpu -translate-x-1/2 -translate-y-1/2 text-center"
+      >
+        List
+      </div>
+    </div>
+  </div>
+  <div
+    class="pl-4-safe pr-4-safe mt-8 flex justify-between items-center -mb-6 font-semibold"
+  >
+    Simple List
+  </div>
+  <div
+    class="my-8 bg-block-strong-light dark:bg-block-strong-dark hairline-t hairline-b relative z-10"
+  >
+    <ul class="last-child-hairline-b-none">
+      <li class="">
+        <div class="pl-4-safe flex items-center">
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">Item 1</div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="">
+        <div class="pl-4-safe flex items-center">
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">Item 2</div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="">
+        <div class="pl-4-safe flex items-center">
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">Item 3</div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div
+    class="pl-4-safe pr-4-safe mt-8 flex justify-between items-center -mb-6 font-semibold"
+  >
+    Simple Links List
+  </div>
+  <div
+    class="my-8 bg-block-strong-light dark:bg-block-strong-dark hairline-t hairline-b relative z-10"
+  >
+    <ul class="last-child-hairline-b-none">
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">Link 1</div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div></div
+        ></a>
+      </li>
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">Link 2</div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div></div
+        ></a>
+      </li>
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">Link 3</div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div></div
+        ></a>
+      </li>
+    </ul>
+  </div>
+  <div
+    class="pl-4-safe pr-4-safe mt-8 flex justify-between items-center -mb-6 font-semibold"
+  >
+    Data list, with icons
+  </div>
+  <div
+    class="my-8 bg-block-strong-light dark:bg-block-strong-dark hairline-t hairline-b relative z-10"
+  >
+    <ul class="last-child-hairline-b-none">
+      <li class="">
+        <div class="pl-4-safe flex items-center">
+          <div class="mr-4 shrink-0 py-2">
+            <img
+              src="assets/demo-icon.f0653699.png"
+              alt="icon"
+              class="ios:w-7 material:w-6"
+            />
+          </div>
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">Ivan Petrov</div>
+              <div
+                class="text-black dark:text-white text-opacity-55 shrink-0 ml-auto pl-1 flex items-center space-x-1 dark:text-opacity-55"
+              >
+                CEO
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="">
+        <div class="pl-4-safe flex items-center">
+          <div class="mr-4 shrink-0 py-2">
+            <img
+              src="assets/demo-icon.f0653699.png"
+              alt="icon"
+              class="ios:w-7 material:w-6"
+            />
+          </div>
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">John Doe</div>
+              <div
+                class="text-black dark:text-white text-opacity-55 shrink-0 ml-auto pl-1 flex items-center space-x-1 dark:text-opacity-55"
+              >
+                <span
+                  class="text-white bg-primary inline-flex items-center justify-center rounded-full leading-none font-semibold text-xs min-w-5 min-h-5 px-1.5 py-0.5"
+                  >5</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="">
+        <div class="pl-4-safe flex items-center">
+          <div class="mr-4 shrink-0 py-2">
+            <img
+              src="assets/demo-icon.f0653699.png"
+              alt="icon"
+              class="ios:w-7 material:w-6"
+            />
+          </div>
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">Jenna Smith</div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div
+    class="pl-4-safe pr-4-safe mt-8 flex justify-between items-center -mb-6 font-semibold"
+  >
+    Links
+  </div>
+  <div
+    class="my-8 bg-block-strong-light dark:bg-block-strong-dark hairline-t hairline-b relative z-10"
+  >
+    <ul class="last-child-hairline-b-none">
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="mr-4 shrink-0 py-2">
+            <img
+              src="assets/demo-icon.f0653699.png"
+              alt="icon"
+              class="ios:w-7 material:w-6"
+            />
+          </div>
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">Ivan Petrov</div>
+              <div
+                class="text-black dark:text-white text-opacity-55 shrink-0 ml-auto pl-1 flex items-center space-x-1 dark:text-opacity-55"
+              >
+                CEO
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div></div
+        ></a>
+      </li>
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="mr-4 shrink-0 py-2">
+            <img
+              src="assets/demo-icon.f0653699.png"
+              alt="icon"
+              class="ios:w-7 material:w-6"
+            />
+          </div>
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">John Doe</div>
+              <div
+                class="text-black dark:text-white text-opacity-55 shrink-0 ml-auto pl-1 flex items-center space-x-1 dark:text-opacity-55"
+              >
+                Cleaner
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div></div
+        ></a>
+      </li>
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="mr-4 shrink-0 py-2">
+            <img
+              src="assets/demo-icon.f0653699.png"
+              alt="icon"
+              class="ios:w-7 material:w-6"
+            />
+          </div>
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">Jenna Smith</div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div></div
+        ></a>
+      </li>
+    </ul>
+  </div>
+  <div
+    class="pl-4-safe pr-4-safe mt-8 flex justify-between items-center -mb-6 font-semibold"
+  >
+    Links, Header, Footer
+  </div>
+  <div
+    class="my-8 bg-block-strong-light dark:bg-block-strong-dark hairline-t hairline-b relative z-10"
+  >
+    <ul class="last-child-hairline-b-none">
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="mr-4 shrink-0 py-2">
+            <img
+              src="assets/demo-icon.f0653699.png"
+              alt="icon"
+              class="ios:w-7 material:w-6"
+            />
+          </div>
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="text-xs mb-0.5">Name</div>
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">John Doe</div>
+              <div
+                class="text-black dark:text-white text-opacity-55 shrink-0 ml-auto pl-1 flex items-center space-x-1 dark:text-opacity-55"
+              >
+                Edit
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div></div
+        ></a>
+      </li>
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="mr-4 shrink-0 py-2">
+            <img
+              src="assets/demo-icon.f0653699.png"
+              alt="icon"
+              class="ios:w-7 material:w-6"
+            />
+          </div>
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="text-xs mb-0.5">Phone</div>
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">+7 90 111-22-3344</div>
+              <div
+                class="text-black dark:text-white text-opacity-55 shrink-0 ml-auto pl-1 flex items-center space-x-1 dark:text-opacity-55"
+              >
+                Edit
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div></div
+        ></a>
+      </li>
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="mr-4 shrink-0 py-2">
+            <img
+              src="assets/demo-icon.f0653699.png"
+              alt="icon"
+              class="ios:w-7 material:w-6"
+            />
+          </div>
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="text-xs mb-0.5">Email</div>
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">john@doe</div>
+              <div
+                class="text-black dark:text-white text-opacity-55 shrink-0 ml-auto pl-1 flex items-center space-x-1 dark:text-opacity-55"
+              >
+                Edit
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div>
+            <div
+              class="text-black dark:text-white text-xs text-opacity-55 mt-0.5 dark:text-opacity-55"
+            >
+              Home
+            </div>
+          </div></a
+        >
+      </li>
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="mr-4 shrink-0 py-2">
+            <img
+              src="assets/demo-icon.f0653699.png"
+              alt="icon"
+              class="ios:w-7 material:w-6"
+            />
+          </div>
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="text-xs mb-0.5">Email</div>
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">john@konsta</div>
+              <div
+                class="text-black dark:text-white text-opacity-55 shrink-0 ml-auto pl-1 flex items-center space-x-1 dark:text-opacity-55"
+              >
+                Edit
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div>
+            <div
+              class="text-black dark:text-white text-xs text-opacity-55 mt-0.5 dark:text-opacity-55"
+            >
+              Work
+            </div>
+          </div></a
+        >
+      </li>
+    </ul>
+  </div>
+  <div
+    class="pl-4-safe pr-4-safe mt-8 flex justify-between items-center -mb-6 font-semibold"
+  >
+    Links, no icons
+  </div>
+  <div
+    class="my-8 bg-block-strong-light dark:bg-block-strong-dark hairline-t hairline-b relative z-10"
+  >
+    <ul class="last-child-hairline-b-none">
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">Ivan Petrov</div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div></div
+        ></a>
+      </li>
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">John Doe</div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div></div
+        ></a>
+      </li>
+      <li
+        class="bg-list-divider-light text-black text-opacity-55 pl-4-safe pr-4-safe py-1 flex items-center z-20 relative dark:bg-list-divider-dark dark:text-white dark:text-opacity-55 h-8 hairline-t -mt-px text-list-title-ios"
+      >
+        Divider Here
+      </li>
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">Ivan Petrov</div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div></div
+        ></a>
+      </li>
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">Jenna Smith</div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div></div
+        ></a>
+      </li>
+    </ul>
+  </div>
+  <div
+    class="pl-4-safe pr-4-safe mt-8 flex justify-between items-center -mb-6 font-semibold"
+  >
+    Grouped with sticky titles
+  </div>
+  <div
+    class="my-8 bg-block-strong-light dark:bg-block-strong-dark hairline-t hairline-b relative z-10"
+  >
+    <ul class="last-child-hairline-b-none">
+      <li>
+        <div
+          class="bg-block-strong-light dark:bg-block-strong-dark relative z-10"
+        >
+          <ul class="last-child-hairline-b-none">
+            <li
+              class="bg-list-divider-light text-black text-opacity-55 pl-4-safe pr-4-safe py-1 flex items-center z-20 sticky top-0 dark:bg-list-divider-dark dark:text-white dark:text-opacity-55 h-8 hairline-t -mt-px text-list-title-ios ios:top-11-safe material:top-14-safe"
+            >
+              A
+            </li>
+            <li class="">
+              <div class="pl-4-safe flex items-center">
+                <div class="pr-4-safe w-full relative hairline-b py-2.5">
+                  <div
+                    class="flex justify-between items-center text-list-title-ios"
+                  >
+                    <div class="shrink">Aaron</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="">
+              <div class="pl-4-safe flex items-center">
+                <div class="pr-4-safe w-full relative hairline-b py-2.5">
+                  <div
+                    class="flex justify-between items-center text-list-title-ios"
+                  >
+                    <div class="shrink">Abbie</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="">
+              <div class="pl-4-safe flex items-center">
+                <div class="pr-4-safe w-full relative hairline-b py-2.5">
+                  <div
+                    class="flex justify-between items-center text-list-title-ios"
+                  >
+                    <div class="shrink">Adam</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div
+          class="bg-block-strong-light dark:bg-block-strong-dark relative z-10"
+        >
+          <ul class="last-child-hairline-b-none">
+            <li
+              class="bg-list-divider-light text-black text-opacity-55 pl-4-safe pr-4-safe py-1 flex items-center z-20 sticky top-0 dark:bg-list-divider-dark dark:text-white dark:text-opacity-55 h-8 hairline-t -mt-px text-list-title-ios ios:top-11-safe material:top-14-safe"
+            >
+              B
+            </li>
+            <li class="">
+              <div class="pl-4-safe flex items-center">
+                <div class="pr-4-safe w-full relative hairline-b py-2.5">
+                  <div
+                    class="flex justify-between items-center text-list-title-ios"
+                  >
+                    <div class="shrink">Bailey</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="">
+              <div class="pl-4-safe flex items-center">
+                <div class="pr-4-safe w-full relative hairline-b py-2.5">
+                  <div
+                    class="flex justify-between items-center text-list-title-ios"
+                  >
+                    <div class="shrink">Barclay</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="">
+              <div class="pl-4-safe flex items-center">
+                <div class="pr-4-safe w-full relative hairline-b py-2.5">
+                  <div
+                    class="flex justify-between items-center text-list-title-ios"
+                  >
+                    <div class="shrink">Bartolo</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div
+          class="bg-block-strong-light dark:bg-block-strong-dark relative z-10"
+        >
+          <ul class="last-child-hairline-b-none">
+            <li
+              class="bg-list-divider-light text-black text-opacity-55 pl-4-safe pr-4-safe py-1 flex items-center z-20 sticky top-0 dark:bg-list-divider-dark dark:text-white dark:text-opacity-55 h-8 hairline-t -mt-px text-list-title-ios ios:top-11-safe material:top-14-safe"
+            >
+              C
+            </li>
+            <li class="">
+              <div class="pl-4-safe flex items-center">
+                <div class="pr-4-safe w-full relative hairline-b py-2.5">
+                  <div
+                    class="flex justify-between items-center text-list-title-ios"
+                  >
+                    <div class="shrink">Caiden</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="">
+              <div class="pl-4-safe flex items-center">
+                <div class="pr-4-safe w-full relative hairline-b py-2.5">
+                  <div
+                    class="flex justify-between items-center text-list-title-ios"
+                  >
+                    <div class="shrink">Calvin</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="">
+              <div class="pl-4-safe flex items-center">
+                <div class="pr-4-safe w-full relative hairline-b py-2.5">
+                  <div
+                    class="flex justify-between items-center text-list-title-ios"
+                  >
+                    <div class="shrink">Candy</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div
+    class="pl-4-safe pr-4-safe mt-8 flex justify-between items-center -mb-6 font-semibold"
+  >
+    Inset List
+  </div>
+  <div
+    class="my-8 bg-block-strong-light dark:bg-block-strong-dark relative z-10 ml-4-safe mr-4-safe overflow-hidden rounded-lg"
+  >
+    <ul class="no-safe-areas last-child-hairline-b-none">
+      <li class="">
+        <div class="pl-4-safe flex items-center">
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">Item 1</div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="">
+        <div class="pl-4-safe flex items-center">
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">Item 2</div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="">
+        <div class="pl-4-safe flex items-center">
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink">Item 3</div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div
+    class="pl-4-safe pr-4-safe mt-8 flex justify-between items-center -mb-6 font-semibold text-2xl"
+  >
+    Media Lists
+  </div>
+  <div class="text-sm z-10 relative pl-4-safe pr-4-safe my-8">
+    <p>
+      Media Lists are almost the same as Data Lists, but with a more flexible
+      layout for visualization of more complex data, like products, services,
+      user, etc.
+    </p>
+  </div>
+  <div
+    class="pl-4-safe pr-4-safe mt-8 flex justify-between items-center -mb-6 font-semibold"
+  >
+    Songs
+  </div>
+  <div
+    class="my-8 bg-block-strong-light dark:bg-block-strong-dark hairline-t hairline-b relative z-10"
+  >
+    <ul class="last-child-hairline-b-none">
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="mr-4 shrink-0 py-2">
+            <img
+              src="https://cdn.framework7.io/placeholder/people-160x160-1.jpg"
+              width="80"
+              alt="demo"
+            />
+          </div>
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink font-semibold">Yellow Submarine</div>
+              <div
+                class="text-black dark:text-white text-opacity-55 shrink-0 ml-auto pl-1 flex items-center space-x-1 dark:text-opacity-55"
+              >
+                $15
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="text-sm">Beatles</div>
+            <div
+              class="text-black dark:text-white text-sm text-opacity-55 line-clamp-2 dark:text-opacity-55"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              sagittis tellus ut turpis condimentum, ut dignissim lacus
+              tincidunt. Cras dolor metus, ultrices condimentum sodales sit
+              amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris
+              rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo
+              augue id, pulvinar lacus.
+            </div>
+          </div></a
+        >
+      </li>
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="mr-4 shrink-0 py-2">
+            <img
+              src="https://cdn.framework7.io/placeholder/people-160x160-2.jpg"
+              width="80"
+              alt="demo"
+            />
+          </div>
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink font-semibold">Don't Stop Me Now</div>
+              <div
+                class="text-black dark:text-white text-opacity-55 shrink-0 ml-auto pl-1 flex items-center space-x-1 dark:text-opacity-55"
+              >
+                $22
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="text-sm">Queen</div>
+            <div
+              class="text-black dark:text-white text-sm text-opacity-55 line-clamp-2 dark:text-opacity-55"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              sagittis tellus ut turpis condimentum, ut dignissim lacus
+              tincidunt. Cras dolor metus, ultrices condimentum sodales sit
+              amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris
+              rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo
+              augue id, pulvinar lacus.
+            </div>
+          </div></a
+        >
+      </li>
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="mr-4 shrink-0 py-2">
+            <img
+              src="https://cdn.framework7.io/placeholder/people-160x160-3.jpg"
+              width="80"
+              alt="demo"
+            />
+          </div>
+          <div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink font-semibold">Billie Jean</div>
+              <div
+                class="text-black dark:text-white text-opacity-55 shrink-0 ml-auto pl-1 flex items-center space-x-1 dark:text-opacity-55"
+              >
+                $16
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="text-sm">Michael Jackson</div>
+            <div
+              class="text-black dark:text-white text-sm text-opacity-55 line-clamp-2 dark:text-opacity-55"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              sagittis tellus ut turpis condimentum, ut dignissim lacus
+              tincidunt. Cras dolor metus, ultrices condimentum sodales sit
+              amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris
+              rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo
+              augue id, pulvinar lacus.
+            </div>
+          </div></a
+        >
+      </li>
+    </ul>
+  </div>
+  <div
+    class="pl-4-safe pr-4-safe mt-8 flex justify-between items-center -mb-6 font-semibold"
+  >
+    Mail App
+  </div>
+  <div
+    class="my-8 bg-block-strong-light dark:bg-block-strong-dark hairline-t hairline-b relative z-10"
+  >
+    <ul class="last-child-hairline-b-none">
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink font-semibold">Facebook</div>
+              <div
+                class="text-black dark:text-white text-opacity-55 shrink-0 ml-auto pl-1 flex items-center space-x-1 dark:text-opacity-55"
+              >
+                17:14
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="text-sm">New messages from John Doe</div>
+            <div
+              class="text-black dark:text-white text-sm text-opacity-55 line-clamp-2 dark:text-opacity-55"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              sagittis tellus ut turpis condimentum, ut dignissim lacus
+              tincidunt. Cras dolor metus, ultrices condimentum sodales sit
+              amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris
+              rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo
+              augue id, pulvinar lacus.
+            </div>
+          </div></a
+        >
+      </li>
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink font-semibold">John Doe (via Twitter)</div>
+              <div
+                class="text-black dark:text-white text-opacity-55 shrink-0 ml-auto pl-1 flex items-center space-x-1 dark:text-opacity-55"
+              >
+                17:11
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="text-sm">
+              John Doe (@_johndoe) mentioned you on Twitter!
+            </div>
+            <div
+              class="text-black dark:text-white text-sm text-opacity-55 line-clamp-2 dark:text-opacity-55"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              sagittis tellus ut turpis condimentum, ut dignissim lacus
+              tincidunt. Cras dolor metus, ultrices condimentum sodales sit
+              amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris
+              rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo
+              augue id, pulvinar lacus.
+            </div>
+          </div></a
+        >
+      </li>
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink font-semibold">Facebook</div>
+              <div
+                class="text-black dark:text-white text-opacity-55 shrink-0 ml-auto pl-1 flex items-center space-x-1 dark:text-opacity-55"
+              >
+                16:48
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="text-sm">New messages from John Doe</div>
+            <div
+              class="text-black dark:text-white text-sm text-opacity-55 line-clamp-2 dark:text-opacity-55"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              sagittis tellus ut turpis condimentum, ut dignissim lacus
+              tincidunt. Cras dolor metus, ultrices condimentum sodales sit
+              amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris
+              rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo
+              augue id, pulvinar lacus.
+            </div>
+          </div></a
+        >
+      </li>
+      <li class="">
+        <a
+          class="pl-4-safe flex items-center duration-300 active:duration-0 cursor-pointer select-none active:hairline-transparent active:bg-black active:bg-opacity-10 dark:active:bg-white dark:active:bg-opacity-10"
+          ><div class="pr-4-safe w-full relative hairline-b py-2.5">
+            <div class="flex justify-between items-center text-list-title-ios">
+              <div class="shrink font-semibold">John Doe (via Twitter)</div>
+              <div
+                class="text-black dark:text-white text-opacity-55 shrink-0 ml-auto pl-1 flex items-center space-x-1 dark:text-opacity-55"
+              >
+                15:32
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="14"
+                viewBox="0 0 12 20"
+                fill="currentcolor"
+                class="opacity-20 shrink-0 ml-3"
+              >
+                <path
+                  d="M11.518406,10.5648622 C11.4831857,10.6163453 11.4426714,10.6653692 11.3968592,10.7111814 L2.5584348,19.5496058 C1.9753444,20.1326962 1.03186648,20.1345946 0.44199608,19.5447242 C-0.14379032,18.9589377 -0.14922592,18.0146258 0.43711448,17.4282854 L7.87507783,9.9903221 L0.4431923,2.5584366 C-0.1398981,1.9753462 -0.1417965,1.0318683 0.448074,0.4419979 C1.0338604,-0.1437886 1.9781723,-0.1492241 2.56451268,0.4371163 L11.4029371,9.2755407 C11.7556117,9.6282153 11.7969345,10.1725307 11.518406,10.5648622 Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="text-sm">
+              John Doe (@_johndoe) mentioned you on Twitter!
+            </div>
+            <div
+              class="text-black dark:text-white text-sm text-opacity-55 line-clamp-2 dark:text-opacity-55"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              sagittis tellus ut turpis condimentum, ut dignissim lacus
+              tincidunt. Cras dolor metus, ultrices condimentum sodales sit
+              amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris
+              rutrum ligula nec dapibus feugiat. In vel dui laoreet, commodo
+              augue id, pulvinar lacus.
+            </div>
+          </div></a
+        >
+      </li>
+    </ul>
+  </div>
+</div>

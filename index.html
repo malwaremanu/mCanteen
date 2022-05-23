@@ -1,0 +1,37 @@
+<script src="//unpkg.com/alpinejs" defer></script>
+<!DOCTYPE html>
+<html lang="en" style="--k-safe-area-top:44px; --k-safe-area-bottom:34px;" 
+      class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#3f3f3f">    
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script> -->
+    <link rel="manifest" href="manifest.json" />
+    <link rel="shortcut icon" href="https://web.deta.sh/favicon.png" />
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="https://web.deta.sh/favicon.png" />    
+    <style>
+      @import url(https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css);
+    </style>
+  </head>
+  <body
+    x-data="{
+      'root' : 'login',
+      'mode' : 'dark',                             
+    }">   
+    <div x-show="root == 'dashboard'" include="dashboard.html"></div>
+    <div x-show="root == 'products'" include="products.html"></div>
+    <div x-show="root == 'login'" include="login.html"></div>               
+    <div x-show="root == 'settings'" include="settings.html"></div>
+    <div x-show="root == 'list'" include="list.html"></div>                      
+  </body>
+
+<script src="./script.js" type="text/javascript">  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dmuy/Material-Toast@2.0.2/dist/mdtoast.min.css">
+<script src="https://cdn.jsdelivr.net/gh/dmuy/Material-Toast@2.0.2/dist/mdtoast.min.js"></script>
+  
+</html>
